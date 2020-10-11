@@ -1,9 +1,9 @@
 //@version=4
-//Idea From LEI & LoneCapital
-//Thanks to Ronnyjoy, Don-L, jasonmel, mli,papok, s6wu, xian, Yu yang, Jchang274, Yin Feng from Slack Group
+// Idea From LEI & LoneCapital
+// Thanks to Ronnyjoy,Don-L,jasonmel,mli,papok,s6wu,xian,Yu yang,Jchang274, YinFeng from Slack Group
+// Demo: https://cn.tradingview.com/script/Z80gO0Ny/
 
 study(title="S&P500 Market Breadth", shorttitle="S&P500 Market Breadth",overlay=false)
-
 tp =9
 
 colorFill(v) =>
@@ -60,7 +60,7 @@ label.new(
      x=bar_index,y=12*10-5,
      text=tostring(TTL,"#")+"        ",
      style=label.style_label_center,color=color.new(color.white,transp=100),
-     textcolor=color.gray,
+     textcolor=color.black,
      textalign = text.align_left,
      size=size.tiny)
 
